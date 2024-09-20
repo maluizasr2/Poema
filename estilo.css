@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0ea6ed;
+    color: #ffffff;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+.soneto{
+    text-align: center;
+    margin: 25px 0 0px 0;
+}
+
+.foto{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 25px 0 0 0;
+}
+
+.versos{
+    text-align: center;
+    p{
+        max-width: 950px;
+        margin: 32px auto;
+        line-height: 32px;
+        font-style: italic;
+    }
+}
+
+p::first-letter{
+    font-size: 30px;
+}
+
+.final{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0ea6ed;
+    color: #ffffff;
+    box-sizing: border-box;
+    font-weight: bold;
+}
